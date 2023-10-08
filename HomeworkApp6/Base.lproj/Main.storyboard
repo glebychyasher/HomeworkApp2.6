@@ -39,7 +39,7 @@
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="z66-Oh-dhm" kind="presentation" identifier="welcome" modalPresentationStyle="automatic" id="cI5-fp-VD7"/>
+                                            <segue destination="z66-Oh-dhm" kind="presentation" identifier="welcome" modalPresentationStyle="fullScreen" id="cI5-fp-VD7"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -95,9 +95,9 @@
         <!--Welcome View Controller-->
         <scene sceneID="zO6-Zb-iCu">
             <objects>
-                <viewController id="z66-Oh-dhm" customClass="WelcomeViewController" customModule="HomeworkApp6" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="z66-Oh-dhm" customClass="WelcomeViewController" customModule="HomeworkApp6" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G4K-h2-LOd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8E-eW-NvE">
@@ -106,8 +106,14 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNs-TJ-kfG">
+                                <rect key="frame" x="139.5" y="136" width="41" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXK-iI-eNx">
-                                <rect key="frame" x="119" y="391" width="82" height="35"/>
+                                <rect key="frame" x="119" y="411" width="82" height="35"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Log out"/>
@@ -115,12 +121,6 @@
                                     <segue destination="kKL-kW-19R" kind="unwind" unwindAction="unwindFor:" id="lTG-js-pvJ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNs-TJ-kfG">
-                                <rect key="frame" x="139.5" y="136" width="41" height="43"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0pk-Hx-Os1"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>

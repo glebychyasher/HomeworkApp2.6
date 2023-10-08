@@ -30,9 +30,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func unwind(for segue: UIStoryboardSegue) {
-        guard let initialVC = segue.destination as? ViewController else {return}
-        initialVC.passwordTextField.text = ""
-        initialVC.userNameTextField.text = ""
+        passwordTextField.text = ""
+        userNameTextField.text = ""
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
