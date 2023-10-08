@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var logInButton: UIButton!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var userNameTextField: UITextField!
@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         logInButton.layer.cornerRadius = 10
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func forgotUserNameAction() {
@@ -30,16 +29,35 @@ class ViewController: UIViewController {
         showAlert(with: "Oops!", and: "Your password is \(password)")
     }
     
+    @IBAction func unwind(for segue: UIStoryboardSegue) {
+        guard let initialVC = segue.destination as? ViewController else {return}
+        initialVC.passwordTextField.text = ""
+        initialVC.userNameTextField.text = ""
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let welcomeVC = segue.destination as? WelcomeViewController else { return }
+        welcomeVC.name = userNameTextField.text ?? ""
+    }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        guard userNameTextField.text == userName, passwordTextField.text == password else {
+            showAlert(with: "Oops!", and: "Wrong password or user name")
+            return false
+        }
+        // Введенное имя валидно, разрешаем переход
+        return true
+    }
     
     private func showAlert(with title: String, and message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .default)
-        alert.addAction(okAction) //добавляем кнопку к alert
+        alert.addAction(okAction)
         present(alert, animated: true)
-    }
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        super .touchesBegan(touches, with: event)
     }
 }
 

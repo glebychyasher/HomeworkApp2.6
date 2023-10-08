@@ -3,4 +3,99 @@
    uuid = "943F2E8C-0251-44AC-A6A1-831CA48A406D"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A646FC0-DB21-4BD7-B215-7E818DA66AD4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeworkApp6/WelcomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "WelcomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8A646FC0-DB21-4BD7-B215-7E818DA66AD4 - aa19dfecd4844289"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeworkApp6.WelcomeViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HomeworkApp6.WelcomeViewController"
+                  moduleName = "HomeworkApp6"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/HomeworkApp6/HomeworkApp6/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "8A646FC0-DB21-4BD7-B215-7E818DA66AD4 - 5d00922c3900e2d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeworkApp6.WelcomeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HomeworkApp6.WelcomeViewController"
+                  moduleName = "HomeworkApp6"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/HomeworkApp6/HomeworkApp6/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "127">
+               </Location>
+               <Location
+                  uuid = "8A646FC0-DB21-4BD7-B215-7E818DA66AD4 - 2bbac9f502842a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeworkApp6.WelcomeViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HomeworkApp6.WelcomeViewController&gt;"
+                  moduleName = "HomeworkApp6"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/HomeworkApp6/HomeworkApp6/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "8A646FC0-DB21-4BD7-B215-7E818DA66AD4 - 220838216154cb1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeworkApp6.WelcomeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HomeworkApp6.WelcomeViewController&gt;"
+                  moduleName = "HomeworkApp6"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/HomeworkApp6/HomeworkApp6/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "8A646FC0-DB21-4BD7-B215-7E818DA66AD4 - 3808369385928b3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeworkApp6.WelcomeViewController.__deallocating_deinit"
+                  moduleName = "HomeworkApp6"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/HomeworkApp6/HomeworkApp6/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
