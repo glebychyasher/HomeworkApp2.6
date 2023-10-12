@@ -23,5 +23,4 @@ final class BioViewController: UIViewController {
         navItem.title = (name ?? "Titleee") + "'s Bio"
         bioLabel.text = bio
     }
-
 }
