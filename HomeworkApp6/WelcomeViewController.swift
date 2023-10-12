@@ -18,5 +18,4 @@ final class WelcomeViewController: UIViewController {
         setGradient(for: welcomeView)
         welcomeLabel.text = "My name is \(name ?? "")!"
     }
-    
 }
