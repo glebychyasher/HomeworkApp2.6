@@ -12,7 +12,6 @@ final class Image: UIImageView {
     override func layoutSubviews() {
         let radius = CGRectGetWidth(frame) / 2
         layer.cornerRadius = radius
-    }
-    
+    } 
 }
 

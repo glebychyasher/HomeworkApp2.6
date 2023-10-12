@@ -11,7 +11,6 @@ final class NavigationController: UINavigationController {
     var name: String?
 
     override func viewDidLoad() {
-        
         super.viewDidLoad()
         let appearance = UINavigationBarAppearance()
         appearance.configureWithTransparentBackground()

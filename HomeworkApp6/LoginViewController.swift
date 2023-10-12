@@ -36,11 +36,8 @@ final class LoginViewController: UIViewController {
             } else if let navigationVC = viewController as? UINavigationController {
                 guard let informationVC = navigationVC.topViewController as? InformationViewController else { return }
                 informationVC.user = userForMove
-            
             }
         }
-        
-        
     }
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool { //разрешение на переход
@@ -52,8 +49,8 @@ final class LoginViewController: UIViewController {
         }
         showAlert(with: "Oops!", and: "Wrong password or user name")
         return false
-        
     }
+    
     @IBAction func forgotUserNameAction() {
         showAlert(with: "Oops!", and: "We don't know your login", textField: loginTextField)
     }

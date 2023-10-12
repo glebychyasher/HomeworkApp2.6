@@ -12,19 +12,6 @@ final class WelcomeViewController: UIViewController {
     @IBOutlet weak var welcomeLabel: UILabel!
     
     var name: String?
-    
-//    var user = User(
-//        login: "",
-//        password: "",
-//        person: Person(
-//            name: "",
-//            surname: "",
-//            company: "",
-//            department: "",
-//            occupation: "",
-//            bio: "",
-//            photo: "")
-//    )
 
     override func viewDidLoad() {
         super.viewDidLoad()
